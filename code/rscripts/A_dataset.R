@@ -6,7 +6,7 @@
 #
 #
 #
-# Miguel P Xochicale [http://mxochicale.github.io]
+# Miguel Xochicale [http://mxochicale.github.io]
 #
 ###############################################################################	
 	# OUTLINE:
@@ -279,6 +279,9 @@ write.table(xdata, "rawopenfacedata.datatable", row.name=FALSE)
 
 message('datatable file has been created at '  )
 message (outcomes_data_path)
+
+
+
 
 
 #################

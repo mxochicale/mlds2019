@@ -6,7 +6,7 @@
 #
 #
 #
-# Miguel P Xochicale [http://mxochicale.github.io]
+# Miguel Xochicale [http://mxochicale.github.io]
 #
 ###############################################################################	
 	# OUTLINE:
