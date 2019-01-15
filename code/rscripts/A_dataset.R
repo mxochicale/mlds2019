@@ -93,12 +93,12 @@ for(participants_k in 1:participantsNN)
     	temp <- get(pNNtNN_)
  
 	# add particpant
-	func <-function(x) {list( participants_k )} 
+	func <-function(x) {list( paste('p',participants_k,sep=''))} 
 	temp[,c("participant"):=func(), ]
 	setcolorder(temp,c(432,1:431) )
 
 	#add trial
-	func <-function(x) {list( trials_k )} 
+	func <-function(x) {list( paste('Trial',trials_k,sep='') )} 
 	temp[,c("trial"):=func(), ]
 	setcolorder( temp,c(1,433,2:432) )
 	pNNtNN_tmp <- rbind(pNNtNN_tmp, temp)

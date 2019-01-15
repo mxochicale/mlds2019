@@ -29,10 +29,12 @@ R
 source(paste(getwd(),"/C_install-nonlinearTseries.R", sep=""), echo=FALSE)
 ```
 
-* then clone personal nonlinearTseries repository
+* then clone personal nonlinearTseries repository at
+
+Current path for this readme.md: `github_path/mlds2019/code/dependencies`
+
 ```
-cd
-cd github
+cd ../../../
 git clone https://github.com/mxochicale/nonlinearTseries
 ```
 
