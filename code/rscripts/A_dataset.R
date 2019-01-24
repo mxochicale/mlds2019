@@ -44,12 +44,10 @@ repository_path <- getwd()
 source( paste(repository_path,'/code/rfunctions/funcextras.R', sep="") )
 
 
-##VERSION 
-version <- '00'
 feature_path <- '/dataset'
 
 ### Outcomes Data Path
-outcomes_data_path <- paste(repository_path,'/data', feature_path, '/v', version, sep="")
+outcomes_data_path <- paste(repository_path,'/data', feature_path, sep="")
 ### Raw Data Path
 data_path <- paste(repository_path, '/data/rawdata',sep="")
 
@@ -275,7 +273,7 @@ if (file.exists(outcomes_data_path)){
 
 ################################################################################
 ####  (5)  Writing Data
-write.table(xdata, "rawopenfacedata.datatable", row.name=FALSE)
+write.table(xdata, "rawopenfacedata.dt", row.name=FALSE)
 
 message('datatable file has been created at '  )
 message (outcomes_data_path)

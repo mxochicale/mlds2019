@@ -39,8 +39,6 @@ setwd("../../")
 repository_path <- getwd()
 
 
-##VERSION 
-version <- '00'
 feature_path <- '/dataset'
 graphics_path <- '/timeseries'
 
@@ -48,7 +46,7 @@ graphics_path <- '/timeseries'
 outcomes_graphics_path <- paste(repository_path,'/docs/figs', graphics_path, sep="")
 
 ### DataSet Path
-data_path <- paste(repository_path,'/data', feature_path, '/v', version, sep="")
+data_path <- paste(repository_path,'/data', feature_path, sep="")
 
 
 
@@ -59,7 +57,7 @@ setwd(data_path)
 
 ################################################################################
 # (2) Reading data
-file_ext <- "rawopenfacedata.datatable"
+file_ext <- "rawopenfacedata.dt"
 xdata <- fread( file_ext, header=TRUE)
 
 

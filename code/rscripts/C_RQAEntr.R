@@ -45,18 +45,10 @@ library(devtools)
 load_all( paste(github_path, '/nonlinearTseries', sep='' ))
 
 
-
-
-##VERSION 
-version <- '00'
 feature_path <- '/dataset'
-graphics_path <- '/rqaentr'
-
-#### Outcomes Data Path
-outcomes_graphics_path <- paste(repository_path,'/docs/figs', graphics_path, sep="")
 
 ### DataSet Path
-data_path <- paste(repository_path,'/data', feature_path, '/v', version, sep="")
+data_path <- paste(repository_path,'/data', feature_path, sep="")
 
 
 
@@ -67,7 +59,7 @@ setwd(data_path)
 
 ################################################################################
 # (3) Reading data
-file_ext <- "rawopenfacedata.datatable"
+file_ext <- "rawopenfacedata.dt"
 xdata <- fread( file_ext, header=TRUE)
 
 
@@ -77,7 +69,8 @@ xdata <- fread( file_ext, header=TRUE)
 
 data <- xdata[,.(
 
-	sgzmuvx_0,  sgzmuvx_1,  sgzmuvx_2,  sgzmuvx_3,  sgzmuvx_4 
+	sgzmuvx_0
+#	sgzmuvx_0,  sgzmuvx_1,  sgzmuvx_2,  sgzmuvx_3,  sgzmuvx_4 
 #	sgzmuvx_5,  sgzmuvx_6,  sgzmuvx_7,  sgzmuvx_8,  sgzmuvx_9, 
 #	sgzmuvx_10, sgzmuvx_11, sgzmuvx_12, sgzmuvx_13, sgzmuvx_14, 
 #	sgzmuvx_15, sgzmuvx_16, sgzmuvx_17, sgzmuvx_18, sgzmuvx_19,
@@ -105,9 +98,19 @@ data <- xdata[,.(
 
 		P<-NULL#rqas for all participants
 
-		#pNN <- c('p01', 'p04', 'p05', 'p10', 'p11', 'p15')
-		number_of_participants <- 1
+		pNN <- c('p1')
+		#pNN <- c('p1', 'p2', 'p3', 'p4', 'p5', 'p6')
+		#number_of_participants <- 1
 
+			#########################################################
+			for (p_k in 1:length(pNN) ) {
+
+			pk <- pNN[p_k]
+			message('Participant', pk)
+
+			pkdata <- data
+			setkey(pkdata, participant)
+			pkdata <- pkdata[.( pk )]
 
 
 #################################################################################
@@ -118,7 +121,6 @@ data <- xdata[,.(
 			#### (4.2.2) Trial Selection
 
 			T<-NULL#rqas for all sensors
-			
 			trials <- c('Trial1','Trial2', 'Trial3')
 
 			#########################################################
@@ -127,7 +129,7 @@ data <- xdata[,.(
 			trialk <- trials[trial_k]
 			message(trialk)
 
-			tkdata <- data
+			tkdata <- pkdata
 
 			if (trialk == 'Trial1' ) {
 			setkey(tkdata, trial)
@@ -179,8 +181,8 @@ data <- xdata[,.(
 #dimensions <- c(6)
 #delays <- c(8)
 
-dimensions <- c(6,7)
-delays <- c(8,9)
+#dimensions <- c(6,7)
+#delays <- c(8,9)
 
 #dimensions <- c(5, 6, 7)
 #delays <- c(7, 8, 9)
@@ -189,8 +191,8 @@ delays <- c(8,9)
 #delays <- c(5, 6, 7, 8, 9, 10)
 #
 
-#dimensions <- seq(1,10)
-#delays <- seq(1,10)
+dimensions <- seq(1,10)
+delays <- seq(1,10)
 
 
 ################################################################################
@@ -204,9 +206,9 @@ for (dim_i in (1:100000)[dimensions]){
 # Recurrence Quantification Analysis
 ################################################################################
 
-		epsilons <- c(0.9, 1.0, 1.1)
+		#epsilons <- c(0.9, 1.0, 1.1)
 		#epsilons <- c(0.9, 1.0, 1.1, 1.2)
-		#epsilons <- seq(0.2,3.0,0.1)
+		epsilons <- seq(0.1,5.0,0.1)
 
 		for (epsilon_idx in 1:(length(epsilons)) ){
 
@@ -245,15 +247,20 @@ for (dim_i in (1:100000)[dimensions]){
 				#rqaa$Lmax, rqaa$Lmean, rqaa$LmeanWithoutMain,
 				#rqaa$ENTR, rqaa$LAM, 
 				#rqaa$Vmax, rqaa$Vmean
-				rqaa$REC, rqaa$ENTR
+				rqaa$REC, 
+				rqaa$ENTR
 			)
 		)
 		)
+
+	fp <- function(x) { pk  }
+       	rqas[,c("Participant"):= fp(), ]
+
 	fa <- function(x) { axisk  }
        	rqas[,c("Axis"):= fa(), ]
 
 	ft <- function(x) { trialk  }
-       	rqas[,c("Sensor"):= ft(), ]
+       	rqas[,c("Trial"):= ft(), ]
 
 	fD <- function(x) { dim_i }
        	rqas[,c("dim"):= fD(), ]
@@ -265,14 +272,12 @@ for (dim_i in (1:100000)[dimensions]){
        	rqas[,c("eps"):= fEp(), ]
 
 
-	a <- rbind(a,rqas) #rqas with axisk
+	a <- rbind(a,rqas) #accumulating
 
 		}#for (epsilon_k in (1:100000)[epsilons]){
 ################################################################################
 # Recurrence Quantification Analysis
 ################################################################################
-
-
 
 
 	} # for (dim_i in (1:500)[dimensions]){
@@ -312,6 +317,18 @@ T <- rbind(T,a) # rqa values with axisk trialk
 
 
 
+P <- rbind(P,T) # rqa values with axisk trialk
+				
+	
+			#for (trial_k in 1:length(pNN) ) {
+			}
+#################################################################################
+#################################################################################
+#################################################################################
+#################################################################################
+
+
+
 
 
 
@@ -322,17 +339,27 @@ rqacn <-	 c(
 		'REC', 'ENTR'
 		)
 
-names(T)[1:2] <- rqacn
-setcolorder(  T,c( 3,4,5,6,7, 1:2)  )
+names(P)[1:2] <- rqacn
+setcolorder(  P,c( 3,5,4,6,7,8, 1,2)  )
 
 
 
 
 
 
+################################################################################
+####  (8)  Writing Data 
+###############################################################################
+if (file.exists(data_path)){
+    setwd(file.path(data_path))
+} else {
+  dir.create(data_path, recursive=TRUE)
+  setwd(file.path(data_path))
+}
 
 
-
+file_ext <- paste('RQA3D', '.dt',sep='')
+write.table(P, file_ext, row.name=FALSE)
 
 
 
