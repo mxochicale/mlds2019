@@ -5,7 +5,9 @@ https://scholar.google.com/scholar?um=1&ie=UTF-8&lr&cites=3402509445667509719
 
 Back E
 https://www.kingston.ac.uk/staff/profile/dr-elisa-back-360  
-e.back@kingston.ac.uk   
+e.back@kingston.ac.uk     
+https://twitter.com/elisaback   
+
 
 
 Jordan TR
@@ -41,28 +43,10 @@ https://scholar.google.com/citations?user=_iw29XQAAAAJ&hl=en&oi=sra
 
 
 
-
-
-
 # keywords
 
 * seminal works in mental state research [2,3,4]
         but with static faces
 
 
-
-
-# related work
-
-* Back, Elisa (2017)
-```
-What do eye movements reveal about inferring mental states
-from dynamic facial expressions in adolescents with ASD?
-In: British Psychology Developmental Section Annual
-Conference 2017;
-13-15 September 2017,
-Stratford-upon-Avon. (Submitted)
-```
-
-https://eprints.kingston.ac.uk/42264/
 
