@@ -67,16 +67,16 @@ Time difference of 57.89195 mins
 Thu 24 Jan 18:54:20 GMT 2019
 
 
-
-# todo
-
-* [ ] files for images and dateset should have the ranges for each file
-* [ ] experiment with limitated axis of 3D axis!
-* [ ] * create a plot for an average of the 67 values
-	* create a plot for a landmark near the eye or mouth
+## Tue Jan 29 15:24:13 GMT 2019
 
 
-Thu 24 Jan 19:02:22 GMT 2019
+```
+	code/rscripts/E_plot_3DRQAEntr.R
+	docs/figs/rqaentr/first_proposal/
+	docs/figs/rqaentr/second_proposal/
+```
+
+
 
 
 
@@ -98,5 +98,17 @@ Thu 24 Jan 19:02:22 GMT 2019
 
 
 
+
+# TODO list
+
+* [ ] files for images and dateset should have the ranges for each file
+* [x] experiment with limitated axis of 3D axis!
+	sorted out with `E_plot`
+	Tue Jan 29 15:24:58 GMT 2019 
+* [ ] * create a plot for an average of the 67 values
+	* create a plot for a landmark near the eye or mouth
+
+
+Thu 24 Jan 19:02:22 GMT 2019
 
 

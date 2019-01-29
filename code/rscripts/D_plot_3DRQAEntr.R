@@ -40,7 +40,7 @@ library(plot3D)
 
 
 feature_path <- '/dataset'
-graphics_path <- '/rqaentr'
+graphics_path <- '/rqaentr/first_proposal'
 
 #### Outcomes Data Path
 outcomes_graphics_path <- paste(repository_path,'/docs/figs', graphics_path, sep="")
