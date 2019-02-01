@@ -67,6 +67,12 @@ Time difference of 57.89195 mins
 Thu 24 Jan 18:54:20 GMT 2019
 
 
+
+
+
+
+# 28th Jan - 3th Feb 2019
+
 ## Tue Jan 29 15:24:13 GMT 2019
 
 
@@ -76,11 +82,34 @@ Thu 24 Jan 18:54:20 GMT 2019
 	docs/figs/rqaentr/second_proposal/
 ```
 
+## Fri Feb  1 20:42:04 GMT 2019
+
+```
+	code/rscripts/tsrp/rscripts/AA_tsrp.R
+	code/rscripts/tsrp/rscripts/AB_RQAEntr.R
+	code/rscripts/tsrp/rscripts/AC_plot_3DRQAEntr.R
+	code/rscripts/tsrp/rscripts/BA_tsrp.R
+	code/rscripts/tsrp/rscripts/BB_RQAEntr.R
+	code/rscripts/tsrp/rscripts/BC_plot_3DRQAEntr.R
+	code/rscripts/tsrp/rscripts/CA_tsrp.R
+	code/rscripts/tsrp/rscripts/CB_RQAEntr.R
+	code/rscripts/tsrp/rscripts/CC_plot_3DRQAEntr.R
+	code/rscripts/tsrp/rscripts/DA_tsrp.R
+	code/rscripts/tsrp/rscripts/DB_RQAEntr.R
+	code/rscripts/tsrp/rscripts/DC_plot_3DRQAEntr.R
+
+```
 
 
 
-
-# 28th Jan - 3th Feb 2019
+```
+/data/dataset$ tree -s
+.
+├── [     284288]  RQA3D_brownianmotion.dt
+├── [     256385]  RQA3D_logisticmap.dt
+├── [     223294]  RQA3D_sinewaves.dt
+└── [     221641]  RQA3D_uniformnoise.dt
+```
 
 
 # 4th - 10th Feb 2019
@@ -100,6 +129,12 @@ Thu 24 Jan 18:54:20 GMT 2019
 
 
 # TODO list
+
+* [ ] define the same range of variation of colours in 3drqa plots
+	Fri Feb  1 20:42:55 GMT 2019
+
+
+
 
 * [ ] files for images and dateset should have the ranges for each file
 * [x] experiment with limitated axis of 3D axis!
