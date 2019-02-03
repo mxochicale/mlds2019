@@ -78,7 +78,7 @@ names(tsn) <- c('tn', 'ftn')
 #
 ts <- tsn$ftn
 rqa.analysis=rqa(time.series = ts, embedding.dim=1, time.lag=1,
-                radius=0.4,lmin=2,vmin=2,do.plot=FALSE, distanceToBorder=2)
+                radius=0.5,lmin=2,vmin=2,do.plot=FALSE, distanceToBorder=2)
 
 
 #################################################################################

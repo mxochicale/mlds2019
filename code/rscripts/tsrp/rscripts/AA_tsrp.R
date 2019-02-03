@@ -92,7 +92,7 @@ names(noise) <- c('n', 'x')
 #
 ts <- noise$x
 rqa.analysis=rqa(time.series = ts, embedding.dim=1, time.lag=1,
-                radius=0.2,lmin=2,vmin=2,do.plot=FALSE, distanceToBorder=2)
+                radius=0.5,lmin=2,vmin=2,do.plot=FALSE, distanceToBorder=2)
 
 
 

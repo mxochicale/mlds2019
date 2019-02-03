@@ -111,6 +111,36 @@ Thu 24 Jan 18:54:20 GMT 2019
 └── [     221641]  RQA3D_uniformnoise.dt
 ```
 
+## Sun Feb  3 20:34:22 GMT 2019
+
+lorenz time series
+
+```
+	code/rscripts/tsrp/rscripts/EA_tsrp.R
+	code/rscripts/tsrp/rscripts/EB_RQAEntr.R
+	code/rscripts/tsrp/rscripts/EC_plot_3DRQAEntr.R
+	data/dataset/RQA3D_lorenz.dt
+	docs/figs/tsrp/src/3DRQA/lorenz_ENTR_eps_0.1.png
+	docs/figs/tsrp/src/3DRQA/lorenz_ENTR_eps_0.2.png
+	docs/figs/tsrp/src/3DRQA/lorenz_ENTR_eps_0.5.png
+	docs/figs/tsrp/src/3DRQA/lorenz_ENTR_eps_0.7.png
+	docs/figs/tsrp/src/3DRQA/lorenz_ENTR_eps_1.2.png
+	docs/figs/tsrp/src/3DRQA/lorenz_ENTR_eps_1.5.png
+	docs/figs/tsrp/src/3DRQA/lorenz_ENTR_eps_1.7.png
+	docs/figs/tsrp/src/3DRQA/lorenz_ENTR_eps_1.png
+	docs/figs/tsrp/src/3DRQA/lorenz_ENTR_eps_2.png
+	docs/figs/tsrp/src/3DRQA/lorenz_ENTR_eps_3.png
+	docs/figs/tsrp/src/3DRQA/lorenz_ENTR_eps_4.png
+	docs/figs/tsrp/src/3DRQA/lorenz_ENTR_eps_5.png
+	docs/figs/tsrp/src/3DRQA/lorenz_ts.png
+	docs/figs/tsrp/src/raw-figures/rp-E-278.png
+	docs/figs/tsrp/src/raw-figures/ts-E.png
+```
+
+
+
+
+
 
 # 4th - 10th Feb 2019
 
