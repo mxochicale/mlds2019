@@ -145,6 +145,21 @@ lorenz time series
 # 4th - 10th Feb 2019
 
 
+## Tue Feb  5 00:05:54 GMT 2019
+
+```
+	code/rscripts/face_landmarks/
+	data/dataset/RQA3D_facelandmarks.dt
+	data/dataset/RQA3D_sgmuvx_0.dt
+	data/dataset/face_landmarks.dt
+	data/rawdata/landmark_scheme_68.png
+	docs/figs/main/
+	docs/figs/rqaentr/third_proposal/
+	docs/figs/timeseries/preprocessed/
+	docs/figs/timeseries/rawdata/
+	docs/figs/twitter/
+```
+
 
 
 # Symposium 

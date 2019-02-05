@@ -40,7 +40,7 @@ repository_path <- getwd()
 
 
 feature_path <- '/dataset'
-graphics_path <- '/timeseries'
+graphics_path <- '/timeseries/rawdata'
 
 ### Outcomes Data Path
 outcomes_graphics_path <- paste(repository_path,'/docs/figs', graphics_path, sep="")
