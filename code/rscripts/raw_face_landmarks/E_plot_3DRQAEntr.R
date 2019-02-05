@@ -27,7 +27,7 @@ start.time <- Sys.time()
 
 homepath <- Sys.getenv("HOME") 
 r_scripts_path <- getwd()
-setwd("../../")
+setwd("../../../")
 repository_path <- getwd()
 setwd("../")
 github_path <- getwd()

@@ -37,7 +37,7 @@ library(signal)# for butterworth filter and sgolay
 
 homepath <- Sys.getenv("HOME") 
 r_scripts_path <- getwd()
-setwd("../../")
+setwd("../../../")
 repository_path <- getwd()
 
 #loading extra functions

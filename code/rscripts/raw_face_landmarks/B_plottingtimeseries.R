@@ -35,7 +35,7 @@ library(ggplot2) # for plotting
 
 homepath <- Sys.getenv("HOME") 
 r_scripts_path <- getwd()
-setwd("../../")
+setwd("../../../")
 repository_path <- getwd()
 
 
