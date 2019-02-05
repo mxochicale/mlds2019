@@ -1,7 +1,7 @@
 \documentclass[12pt]{article}
 \usepackage[a4paper, total={6in, 10in}]{geometry}
 
-
+\usepackage{natbib}
 \usepackage{enumitem}   
 \usepackage{url}
 \usepackage{graphicx}
@@ -9,9 +9,8 @@
 
 
 \title{
-Quantification of Dynamic Facial Expressions \\
-with Shannon Entropy
-in Human-Humanoid Interaction
+Quantification of Dynamic Facial Expressions with \\
+Shannon Entropy in Human-Humanoid Interaction
 } 
 \author{Miguel Xochicale \\
 School of Engineering \\
@@ -27,11 +26,11 @@ University of Birmingham}
 Research on understanding and quantifying movement variability 
 with nonlinear analyses has been well established in the last three 
 decades in areas such as biomechanics, sport science, psychology, 
-cognitive science, and neuroscience \cite{davids2003}.
+cognitive science, and neuroscience \citep{davids2003}.
 This work is hypothesising that nonlinear analyses 
 can be used to quantify subtle variations of facial expressions 
 that can be related to different mental states 
-(i.e. anxiety, disinterest, relief, etc) \cite{back2014}.
+(i.e. anxiety, disinterest, relief, etc) \citep{back2014}.
 This hypothesis has then led the author to ask two research questions: 
 \begin{enumerate}[label=(\roman*)]
 \item how the quantification of facial expressions can be related to  
@@ -47,13 +46,13 @@ the use of Recurrence Quantification Analysis (RQA)
 to quantify the complexity of facial expressions 
 which is based on previous investigations of the author 
 with nonlinear dynamics to quantify movement variability 
-in human-humanoid interaction \cite{XochicalePhDThesis2018}.
+in human-humanoid interaction \citep{XochicalePhDThesis2018}.
 RQA computes measurements based on the density of 
 recurrence points of diagonal line 
 structures in the Recurrence Plots.
 For which, RQA provide understanding of the dynamics of a system i.e. 
 the determinism (predictability of a system) or 
-Shannon entropy (complexity of a system) \cite{marwan2007}.
+Shannon entropy (complexity of a system) \citep{marwan2007}.
 With that in mind, a pilot experiment is designed 
 to show the complexity of facial expressions variability. 
 In the experiment one participant (the author) 
@@ -61,7 +60,7 @@ were asked to perform
 three levels of variability of face expressions:
 (i) neutral variations, (ii) slow variations, and (iii) faster variations.
 Then, using time-series data of 67 face landmarks collected 
-with OpenFace \cite{baltrusaitis2018}, 3D plots
+with OpenFace \citep{baltrusaitis2018}, 3D plots
 of RQA Entr (Shannon entropy) were computed in order
 to quantify the complexity of face expressions and 
 therefore relate 3D plots of RQA Entr 
@@ -73,7 +72,7 @@ for automatic quantification of face expressions
 that can be related to person's state of mind. 
 
 
-\bibliographystyle{alpha}
+\bibliographystyle{apalike}
 \bibliography{../references/references}
 
 
