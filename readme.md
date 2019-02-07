@@ -18,13 +18,42 @@
 ![poster](/docs/poster/main/poster.png)
 
 
+# Citation
+If you use or adapat any of the files in this repository,
+use the following BibTeX code
 
-# Symposium on Machine Learning and Dynamical Systems 
-[![web](/docs/symposium/docs/swanshalfwidth.png)](https://sites.google.com/site/boumedienehamzi/symposium-on-machine-learning-for-dynamical-systems_2019)
+```
+@misc{miguel_xochicale_2019,
+  author       = {Miguel Xochicale},
+  title        = {{mxochicale/mlds2019: Final 
+                   release}},
+  month        = feb,
+  year         = 2019,
+  doi          = {10/zenodo.},
+  url          = {https://doi.org/10/zenodo.}
+}
+```
 
-Pre-Registration can be made [here](https://www.eventbrite.ca/e/symposium-on-machine-learning-and-dynamical-systems-tickets-49427524055). 
-A detailed agenda (subject to modifications) can be found [here](https://drive.google.com/file/d/1rcx9VyuGGaAYxkWB3lI8mHAHrTrY5RwE/view). 
-A book of abstracts can be found [here](https://docs.google.com/document/d/e/2PACX-1vQVLY_GQHlxrejesDgEGg1VIMXRwHo791N2wCl3oa67AlY9llI5Vaf8HRPe_TJjxqK2Aj6xl3YIQbNn/pub).
+# Symposium on Machine Learning and Dynamical Systems, Imperial College London, Feb. 11-13, 2019
+
+The intersection of the fields of dynamical systems and machine learning is largely unexplored, 
+and the goal of this symposium is to bring together researchers from these fields to fill the 
+gap between the theories of dynamical systems and machine learning in the following directions:
+* Machine Learning for Dynamical Systems: how to analyze dynamical systems on the basis of observed 
+	data rather than attempt to study them analytically.
+* Dynamical Systems for Machine Learning: how to analyze algorithms of Machine Learning using tools 
+	from the theory of dynamical systems.
+
+## Organizers
+	Boumediene Hamzi, Yi-Ke Guo, 
+	Jeroen Lamb, Diana O'Malley (Imperial College London) and 
+	Robert MacKay (University of Warwick and The Alan Turing Institute)
+
+## More
+* [website](https://sites.google.com/site/boumedienehamzi/symposium-on-machine-learning-for-dynamical-systems_2019)
+* [book for abstracts](https://docs.google.com/document/d/1oDm97RaYCyYpxQwPhZ7od54SN0lYMpIKjvgmfKmZYpM/edit)
+* [Pamphlet](https://drive.google.com/file/d/1-IL_ULcD8tJw_dKrxeVBAFFJmZ5LzjAk/view)
+* [List of Participants](https://drive.google.com/file/d/1-IL_ULcD8tJw_dKrxeVBAFFJmZ5LzjAk/view)
 
 
 # Contact
