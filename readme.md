@@ -1,4 +1,5 @@
-# Quantification of Dynamic Facial Expressions with Shannon Entropy in Human-Humanoid Interaction
+# Quantification of Dynamic Facial Expressions with Shannon Entropy in Human-Humanoid Interaction [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.2559629.svg)](https://doi.org/10.5281/zenodo.2559629)
+
 > Research on understanding and quantifying movement variability 
 > with nonlinear analyses has been well established in the last three 
 > decades in areas such as biomechanics, sport science, psychology, 
@@ -23,14 +24,14 @@ If you use or adapat any of the files in this repository,
 use the following BibTeX code
 
 ```
-@misc{miguel_xochicale_2019,
+@misc{miguel_xochicale_2019_2559629,
   author       = {Miguel Xochicale},
-  title        = {{mxochicale/mlds2019: Final 
-                   release}},
+  title        = {{mxochicale/mlds2019: Release repository for the 
+                   symposium}},
   month        = feb,
   year         = 2019,
-  doi          = {10/zenodo.},
-  url          = {https://doi.org/10/zenodo.}
+  doi          = {10.5281/zenodo.2559629},
+  url          = {https://doi.org/10.5281/zenodo.2559629}
 }
 ```
 
@@ -50,10 +51,10 @@ gap between the theories of dynamical systems and machine learning in the follow
 	Robert MacKay (University of Warwick and The Alan Turing Institute)
 
 ## More
-* [website](https://sites.google.com/site/boumedienehamzi/symposium-on-machine-learning-for-dynamical-systems_2019)
-* [book for abstracts](https://docs.google.com/document/d/1oDm97RaYCyYpxQwPhZ7od54SN0lYMpIKjvgmfKmZYpM/edit)
+* [Symposium Website](https://sites.google.com/site/boumedienehamzi/symposium-on-machine-learning-for-dynamical-systems_2019)
+* [Book for abstracts](https://docs.google.com/document/d/1oDm97RaYCyYpxQwPhZ7od54SN0lYMpIKjvgmfKmZYpM/edit)
 * [Pamphlet](https://drive.google.com/file/d/1-IL_ULcD8tJw_dKrxeVBAFFJmZ5LzjAk/view)
-* [List of Participants](https://drive.google.com/file/d/1-IL_ULcD8tJw_dKrxeVBAFFJmZ5LzjAk/view)
+* [List of Participants](https://drive.google.com/file/d/1nJXYz8hlWKcByVvw-96B01GUSVF9WyRu/view)
 
 
 # Contact
