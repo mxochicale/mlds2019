@@ -42,8 +42,7 @@ https://scholar.google.com/citations?user=O4H_dNQAAAAJ&hl=en
 
 
 # (1100) Michael Dellnitz (Paderborn, dellnitz@upb.de), Andreas Bittracher (FU Berlin, bittracher@mi.fu-berlin.de) and Sebastian Peitz (Paderborn, speitz@math.upb.de)
-## Title: Low-dimensional data-based surrogate models for analysis, simulation and
-control of high-dimensional dynamical systems
+## Title: Low-dimensional data-based surrogate models for analysis, simulation and control of high-dimensional dynamical systems
 > Abstract: In this presentation, we discuss the importance of low-dimensional
 coordinates for the efficient analysis, simulation and control of high- or
 infinite-dimensional systems, and we present data-based methods for their
