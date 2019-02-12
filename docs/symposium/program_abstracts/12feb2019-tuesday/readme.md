@@ -361,7 +361,7 @@ https://scholar.google.nl/citations?user=Ef0CTDkAAAAJ&hl=en
 
 
 
-# Peter Dueben (ECMWF, Peter.Dueben@ecmwf.int)
+# (1730) Peter Dueben (ECMWF, Peter.Dueben@ecmwf.int)
 ## Title: Challenges and design choices for global weather and climate models based on machine learning
 > Abstract: Can models that are based on deep learning and trained on atmospheric
 data compete with weather and climate models that are based on physical

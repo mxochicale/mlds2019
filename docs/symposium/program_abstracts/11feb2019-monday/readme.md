@@ -1,3 +1,6 @@
+Monday Feb 11 (G16 LT1, Sir Alexander Fleming Building)
+---
+
 
 
 
@@ -753,6 +756,17 @@ Marwan, N., Romano, M. C., Thiel, M., and Kurths, J. (2007). Recurrence plots
 for the analysis of complex systems. Physics Reports, 438(5):237 – 329.Xochicale, M. (2018). Nonlinear Analyses to Quantify Movement Variability in
 Human-Humanoid Interaction. PhD dissertation as submitted, University of Birm-
 ingham, United Kingdom.
+
+
+
+Miguel Xochicale
+http://mxochicale.github.io/
+https://github.com/mxochicale
+https://twitter.com/_mxochicale
+https://scholar.google.com/citations?user=_M0fVVIAAAAJ&hl=en
+
+
+
 
 
 
