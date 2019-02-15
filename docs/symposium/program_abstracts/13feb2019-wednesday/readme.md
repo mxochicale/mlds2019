@@ -1,7 +1,7 @@
 Wednesday Feb 13 (Pippard lecture theatre, Sheffield Building, level 5)
 ---
 
-# (900) Sebastian van Strien (Imperial College London, svanstrien@gmail.com)
+# (900) Sebastian van Strien (Imperial College London)
 ## Title: Reinforcement learning in the multi-agent setting
 > Abstract: Reinforcement learning is where a player keeps track of the success of
 actions in the past and chooses new actions accordingly. In the setting of a
@@ -13,13 +13,13 @@ model, one obtains dynamics similar to that of a biological population model
 (replicator-like systems) but also chaotic Lorenz-like behaviour. This talk is based
 on joint work with Björn Winckler.
 
-Sebastian van Strien
-http://wwwf.imperial.ac.uk/~svanstri/
-https://scholar.google.co.uk/citations?user=zHT5hr4AAAAJ&hl=en
+Sebastian van Strien  
+http://wwwf.imperial.ac.uk/~svanstri/  
+https://scholar.google.co.uk/citations?user=zHT5hr4AAAAJ&hl=en  
 
 
 
-# (930) Qianxiao Li (Institute of High Performance Computing, Agency for Science, Technology and Research, Singapore, liqix@ihpc.a-star.edu.sg)
+# (930) Qianxiao Li (Institute of High Performance Computing, Agency for Science, Technology and Research, Singapore)
 ## Title: A Dynamical Systems and Optimal Control Approach to Deep Learning
 > Abstract: Depsite its empirical success, deep learning lacks a concrete
 mathematical framework to study its algorithmic and theoretical properties. In this
@@ -33,13 +33,14 @@ how theoptimal control approach gives rise to novel training algorithms that are
 to theoretical analysis and are effective in practice [2,3].
 
 
+Qianxiao Li  
+http://ww1.math.nus.edu.sg/staff.aspx?f=adjunct  
+https://scholar.google.com/citations?user=zLgReYoAAAAJ&hl=en  
+https://github.com/LiQianxiao  
 
-http://ww1.math.nus.edu.sg/staff.aspx?f=adjunct
-https://scholar.google.com/citations?user=zLgReYoAAAAJ&hl=en
 
 
-
-# (1000) Ioannis Panageas (SUTD, panageasj@gmail.com)
+# (1000) Ioannis Panageas (SUTD)
 ## Title: The Limit Points of (Optimistic) Gradient Descent in Min-Max Optimization
 > Abstract: Motivated by applications in Optimization, Game Theory, and the
 training of Generative Adversarial Networks, the convergence properties of first
@@ -56,16 +57,15 @@ connecting thread is that the behavior of these dynamics can be studied from a
 dynamical systems perspective. Joint work with Costis Daskalakis.
 
 
-
-https://panageas.github.io/
-https://istd.sutd.edu.sg/people/faculty/ioannis-panageas
-https://scholar.google.com/citations?user=5NiFWuwAAAAJ&hl=en
-
-
-
+Ioannis Panageas 
+https://panageas.github.io/  
+https://istd.sutd.edu.sg/people/faculty/ioannis-panageas  
+https://scholar.google.com/citations?user=5NiFWuwAAAAJ&hl=en  
+https://github.com/panageas    
 
 
-# (1100) Georgios Piliouras (SUTD, georgios.piliouras@gmail.com)
+
+# (1100) Georgios Piliouras (SUTD)
 ## Title: Online Optimization in Zero-Sum Games: A Dynamical Systems Approach
 > Abstract: Zero-Sum games are basic staples of game theory. Their study is also
 closely connected with machine learning challenges such as training Generative
@@ -75,12 +75,12 @@ games Poincaré recurrence and novel no-regret bounds can be established as a
 result both in discrete and continuous-time.
 
 
-Georgios Piliouras
-http://people.sutd.edu.sg/~georgios/
-https://scholar.google.com/citations?user=Ar4h7jkAAAAJ&hl=en
+Georgios Piliouras  
+http://people.sutd.edu.sg/~georgios/  
+https://scholar.google.com/citations?user=Ar4h7jkAAAAJ&hl=en  
 
 
-# (1130) Panos Parpas (Imperial College London, panos.parpas@imperial.ac.uk) 
+# (1130) Panos Parpas (Imperial College London) 
 ## Title: Predict Globally, Correct Locally: A dynamical systems view of distributed multilevel learning
 > Abstract: Recently several authors proposed a dynamical systems view of modern
 neural network architectures. This point of view enables the use of a rigorous
@@ -95,13 +95,13 @@ fullnetwork in a distributed fashion. We study the worst case convergence rate o
 proposed algorithm and report numerical results from benchmark test problems.
 
 
-Panos Parpas
-https://www.imperial.ac.uk/people/panos.parpas
-https://www.doc.ic.ac.uk/~pp500/
-https://scholar.google.co.uk/citations?user=yXcvHysAAAAJ&hl=en
+Panos Parpas  
+https://www.imperial.ac.uk/people/panos.parpas  
+https://www.doc.ic.ac.uk/~pp500/  
+https://scholar.google.co.uk/citations?user=yXcvHysAAAAJ&hl=en  
 
 
-# (1200) Pascal Bianchi (Télécom ParisTech, pascal.bianchi@telecom-paristech.fr)
+# (1200) Pascal Bianchi (Télécom ParisTech)
 ## Title: Convergence of the ADAM algorithm from a Dynamical System Viewpoint
 > Abstract: Adam is a popular variant of the stochastic gradient descent for finding
 a local minimizer of a function. The objective function is unknown but a random
@@ -116,14 +116,14 @@ approximation of the Adam iterates, in the sense that the interpolated Adam
 process converges weakly to the solution to the ODE.
 
 
-Pascal Bianchi
-https://bianchi.wp.imt.fr/
-https://scholar.google.fr/citations?user=dy4EjhAAAAAJ&hl=fr
+Pascal Bianchi  
+https://bianchi.wp.imt.fr/  
+https://scholar.google.fr/citations?user=dy4EjhAAAAAJ&hl=fr  
 
 
 
 
-# (1230) Pierre-Yves Masse (ENS Cachan, PIERRE-YVES.MASSE@ens-cachan.fr)
+# (1230) Pierre-Yves Masse (ENS Cachan)
 ## Title: Convergence of Online Training Algorithms for Recurrent Systems
 > Abstract: Neural networks may be represented as parameterised dynamical
 systems: the set of activities of the neurons is the state of the system, the weights
@@ -155,22 +155,22 @@ http://pierre-yves-masse.pagesperso-orange.fr/sources/home_profe_page.html
 
 
 
-# (1400) Robert MacKay (University of Warwick, R.S.MacKay@warwick.ac.uk)
+# (1400) Robert MacKay (University of Warwick)
 ## Title: A Gaussian process to detect underdamped modes of oscillation
 > Abstract: In many domains of data science, it is desired to detect modes of
 oscillation of a system, including estimating their frequency, damping rate, mode
 shape and amplitude. Here a Gaussian process solution is presented.
 
 
-Robert MacKay
-https://warwick.ac.uk/fac/sci/maths/people/staff/robert_mackay/
-https://scholar.google.co.uk/citations?user=BphNXV8AAAAJ&hl=en
+Robert MacKay  
+https://warwick.ac.uk/fac/sci/maths/people/staff/robert_mackay/  
+https://scholar.google.co.uk/citations?user=BphNXV8AAAAJ&hl=en  
 
 
 
 
-# (1430) Erik Bollt (Clarkson, ebollt@clarkson.edu)
-## Title: How Entropic Regression Beats the Outliers Problem in Nonlinear System Identification
+# (1430) Erik Bollt (Clarkson)  
+## Title: How Entropic Regression Beats the Outliers Problem in Nonlinear System Identification  
 > Abstract: System identification (SID) is central in science and engineering
 applications whereby a general model form is assumed, but active terms and
 parameters must be inferred from observations. Virtually all methods for SI rely
@@ -196,15 +196,15 @@ intrinsically de-emphasized.
 References: [1] https://webspace.clarkson.edu/~ebollt/Papers/poCSEmain-180819-final.pdf
 
 
-Erik Bollt
-https://webspace.clarkson.edu/~ebollt/
-https://scholar.google.com/citations?user=EnJzqhAAAAAJ&hl=en
+Erik Bollt  
+https://webspace.clarkson.edu/~ebollt/  
+https://scholar.google.com/citations?user=EnJzqhAAAAAJ&hl=en  
 
 
 
 
-# (1500) Juan-Pablo ORTEGA (Universität Sankt Gallen, juan-pablo.ortega@unisg.ch)
-## Title: The universality problem in dynamic machine learning.
+# (1500) Juan-Pablo ORTEGA (Universität Sankt Gallen)  
+## Title: The universality problem in dynamic machine learning 
 > Abstract: The universal approximation properties with respect to $L ^\infty$ and
 $L ^p$-type criteria of three important families of reservoir computers with
 stochastic discrete-time semi-infinite inputs are shown. First, it is proved that 
@@ -219,10 +219,10 @@ applications to the forecasting of high-dimensional financial realized covarianc
 matrices.
 
 
-Juan-Pablo Ortega
-https://juan-pablo-ortega.com/
-https://www.alexandria.unisg.ch/persons/6769
-https://scholar.google.com/citations?user=SoBQqSwAAAAJ&hl=en
+Juan-Pablo Ortega  
+https://juan-pablo-ortega.com/  
+https://www.alexandria.unisg.ch/persons/6769  
+https://scholar.google.com/citations?user=SoBQqSwAAAAJ&hl=en  
 
 
 
@@ -230,7 +230,7 @@ https://scholar.google.com/citations?user=SoBQqSwAAAAJ&hl=en
 
 
 
-# (1530) Axel Hutt (German Meteorological Service, digitalesbad@gmail.com)
+# (1530) Axel Hutt (German Meteorological Service)
 ## Title: Recurrence structure analysis: revealing underlying metastable attractor dynamics from time series
 > Abstract: Complex systems may exhibit intermittent temporal dynamics, such as
 transitions between slow and fast dynamics. Temporal sequences of such
@@ -269,9 +269,12 @@ recurrence-based symbolic dynamics, Physical Review Letters 110, 154101
 (2013)
 
 
-Axel Hutt
-http://www.geocities.ws/digitalbath/
-https://scholar.google.com/citations?user=PDupwHQAAAAJ&hl=fr
+Axel Hutt  
+http://www.geocities.ws/digitalbath/  
+https://scholar.google.com/citations?user=PDupwHQAAAAJ&hl=fr  
+
+
+
 
 
 
